@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab {
+  padding: 12px 25px;
+  margin: 0 10px;
+  background: #6a1b9a;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tab:hover {
+  background: #8e24aa;
+}
+
+.tab.active {
+  background: #311b92;
+}
+
+.panel {
+  display: none;
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  color: #333;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.panel.active {
+  display: block;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #9c27b0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ab47bc;
+}
+
+.usuario {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.usuario button {
+  background: #e53935;
+  margin-top: 5px;
+}
+
+.usuario button:hover {
+  background: #c62828;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 16px;
+  opacity: 0.9;
+}
