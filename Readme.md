@@ -15,10 +15,12 @@ Aplicación móvil desarrollada con Apache Cordova que permite **registrar, ver,
 ---
 
 ## 📦 Instalación y ejecución
+
 ```bash
 - npm i
 - cordova build android
 - cordova emulate android
+```
 
 
 ### 1. Clonar el repositorio
@@ -26,9 +28,11 @@ Aplicación móvil desarrollada con Apache Cordova que permite **registrar, ver,
 ```bash
 git clone https://github.com/TorresAnndy/miApp-Cordova.git
 cd miApp
+```
 
 ```bash
 👤 Autor
 Gonzales
 Estudiante de TI, Ecuador 🇪🇨
 Hecho con ❤️ usando Cordova + Android Studio + jQuery
+```
