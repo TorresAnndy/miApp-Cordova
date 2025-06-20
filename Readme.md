@@ -30,6 +30,7 @@ git clone https://github.com/TorresAnndy/miApp-Cordova.git
 cd miApp
 ```
 
+### Autor
 ```bash
 👤 Autor
 Gonzales
